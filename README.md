@@ -3,19 +3,24 @@
  [![Build Status](https://travis-ci.org/KhronosGroup/UnityGLTF.svg?branch=master)](https://travis-ci.org/KhronosGroup/UnityGLTF) [![Join the chat at https://gitter.im/KhronosGroup/UnityGLTF](https://badges.gitter.im/KhronosGroup/UnityGLTF.svg)](https://gitter.im/KhronosGroup/UnityGLTF?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Unity3D library for importing and exporting [GLTF 2.0](https://github.com/KhronosGroup/glTF/) assets. 
+GLTF 2.0アセットをインポート／エクスポートするためのUnity3Dライブラリ
 
 The goal of this library is to support the full glTF 2.0 specification and enable the following scenarios:  
-- Run-time import of glTF 2.0 files
-- Run-time export of glTF 2.0 files
-- Design-time import of glTF 2.0 files
-- Design-time export of glTF 2.0 files
+このライブラリのゴールは、glTF 2.0が満たされた仕様のサポートし、以下のシナリオを実現することです。
+- Run-time import of glTF 2.0 files／glTF 2.0ファイルをインポートするランタイム
+- Run-time export of glTF 2.0 files／glTF 2.0ファイルをエクスポートするランタイム
+- Design-time import of glTF 2.0 files／glTF 2.0ファイルをインポートするデザインタイム
+- Design-time export of glTF 2.0 files／glTF 2.0ファイルをエクスポートするデザインタイム
 
 The library will be modularized such that it can be extended to support additional capabilities in Unity or support additional extensions to the glTF specification.  The library is designed to work with Unity 5.6 and above.
+このライブラリはUnityの追加機能のサポートやglTFの仕様への追加拡張をサポートといった拡張できるようにモジュール化されています。
+このライブラリはUnity5.6以降で機能するように設計されています。
 
 ## Current Status
 
 Work Items and Issues targeting a 1.0 release of the library can be found in
 [Road to 1.0](https://github.com/KhronosGroup/UnityGLTF/projects/1)
+このライブラリの1.0リリースに向けた作業項目と課題はRoad to 1.0にあります。
 	
 ## Getting Started
 - This section is dedicated to those who wish to contribute to the project. This should clarify the main project structure without flooding you with too many details.
